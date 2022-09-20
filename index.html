@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width" >
+        <title>IM Web</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/all.min.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+        <header class="header">
+        <img class="logo" src="bottle.png" alt="bottle_logo"><h1>Al Ain Bottled Water</h1>
+        </header>
+        <p class="intro">
+            70% percent of the human body, and 71% percent of the 
+            planet Earth's surface is made up of water. It is scientificaly 
+            proven that an individual should drink 2 liters of fluid per day. Even more so if one does physical activity.
+            This video shows the necessity of bottled water and encourages the audience to 
+            use it occasionally rather than other drinks that could be harmful to the body. 
+        </p>
+        <div class="Video">
+            <video width="1020 px" height="700 px" controls>
+                <source src="alain.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <div class="voting">
+                <button class="btn"id="likebtn">
+                    <i class="fa fa-thumbs-up"></i>
+                </button>
+                <input class="lk"type="number" id="input1" value="0" name="">
+                <button class="btn" id="dislikebtn">
+                    <i class="fa fa-thumbs-down"></i>
+                </button>
+                <input class="lk"type="number" id="input2" value="0" name="">
+                <script src="script.js"></script>
+            </div>
+        </div>
+        <section class="sect">
+        <div class="Intinfo">
+            <img class="img" src="Water1.jpeg" alt="">
+            <div class="txt info1"><p>Advantages of Bottled Water</p>
+            <p>-Bottled water provides a superior form of hydration.</p>
+            <p>-Bottled water is a product of convenience.</p>
+            <p>-Bottled water can store for a long time.</p>
+            <p>-Bottled water is guaranteed to be of a specific quality.</p>
+            <p>-Bottled water is a highly regulated product.</p>
+            <p>-Bottled water offers several different options from which to choose.</p>
+        </div>
+            <img class="img" src="Water2.jpg" alt="">
+            <div class="txt info2"><p>Disadvantages of Bottled Water</p>
+            <p>-Bottled water will always cost more than tap water.</p>
+            <p>-Bottled water can still create health problems.</p>
+            <p>-Bottled water might still have contaminants in it.</p>
+            <p>-Bottled water creates a recycling problem for most communities.</p>
+            <p>-Bottled water leaves a significant carbon footprint.</p></div>
+            <img class="img" src="Water3.jpg" alt="">
+            <div class="txt info3"><p>Facts About Bottled Water</p>
+                <p>-One Million Water Bottles Are Purchased Every Minute.</p>
+                <p>-Bottled water is almost 2,000 times more energy intensive to produce than tap water.</p>
+                <p>-As of 2017, the global bottled water market was worth $198.5 billion, set to reach $300 billion by 2024.</p>
+                <p>-Reusable Bottles Tend to Have a Larger Opening.</p>
+                <p>-Bottled Water Brands Grew from 50 to 195 since 1998.</p></div>
+        </div>
+        </section>
+        <div class="crfm">
+        <div class="credit">
+            <h2 class="h2">Credits</h2>
+            <button class="accordion">Tengis Temuulen</button>
+            <div class="panel">
+                <p>Hey guys, I am Tengis. Sophomore in NYUAD, majoring in computer science, minoring in interactive media.</p></div>
+            <button class="accordion">Marwan Walid</button>
+            <div class="panel">
+                <p>Hey guys, I am Marwan: a 19-yr old from Egypt studying CS and IM at NYUAD.</p></div>
+            <button class="accordion">Hind Alharmoodi</button>
+            <div class="panel">
+                <p>information</p></div>
+        </div>
+        <script type="module" src="script1.js"></script>
+        <form id="survey-form" action='form-data.csv'>
+            <fieldset>
+                <h2>Feedback form</h2>
+              <label id="name-label">Name<br><input type="text" placeholder="Enter your name" id="name" required/></label>
+              <label id="number-label">Age(optional)<br><input type="number" placeholder="Enter your age" id="number" min="3" max="80"/></label>
+              <label>How was your experience with the website?</label>
+              <select id="dropdown">
+                <option>Very Bad</option>
+                <option>Bad</option>
+                <option>Neutral</option>
+                <option>Good</option>
+                <option>Very Good</option>
+              </select>
+            </fieldset>
+            <fieldset>
+              <label>Would you drink bottled water from now on?</label>
+              <div class="rad">
+                  <input type="radio" name="ans" value="1"/> 
+                  <label>Definitely
+                  </label></div>
+              <div class="rad">
+                  <input type="radio" name="ans" value="2"/> 
+                  <label>Maybe
+                  </label></div>
+               <div class="rad"> 
+                  <input type="radio" name="ans" value="3"/> <label>Not sure<br>
+              </label></div>
+            </fieldset>
+            <fieldset>
+              <label>Any comments or suggestions about the website?</label><br>
+              <textarea placeholder="Enter your comment here..."></textarea>
+            <input type="submit" id="submit"/>
+            </fieldset>
+            </form>
+        </div>
+        <div class="footer">
+            <img class="logo" src="bottle.png" alt="bottle_logo"><h1>Al Ain Bottled Water</h1><br>
+            <p class="cpy">©2022 Al Ain Bottled Water. All rights reserved. </p>
+            <div class="cont-info">
+            <p>Contact us</p>
+            <p class="cntct">tt2273@nyu.edu</p>
+        </div>
+        </div>
+    </div>
+    </body>
+</html>
