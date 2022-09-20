@@ -3,6 +3,7 @@ body {
     background-color: #23395d;
     color: white;
 }
+/*set the overall theme of the website*/
 .header{
     font-size: 20px;
     font-weight: bold;
@@ -22,6 +23,7 @@ body {
     width:30px;
     height: 30px;
 }
+/*header and the logo image flex positioned*/
 .intro {
     margin: 50px;
     font-size: 15px;
@@ -62,6 +64,7 @@ button.btn:active {
   color: #004eff;
   transform: scale(1.2);
 }
+/*css for the like and dislike button*/
 .sect {
     position: relative;
 }
@@ -106,6 +109,7 @@ button.btn:active {
     color: white;
     left: 988px;
 }
+/*text hover image css*/
 .h2{
     padding-left: 20px;
 }
@@ -155,6 +159,7 @@ button.accordion.is-open {
 .crfm{
     display: flex;
 }
+/*css for the accordion credit part*/
 form {
     border-radius: 20px;
     background-color: rgba(0, 0,0, 0.6);
@@ -189,6 +194,7 @@ input[type="submit"]{
     margin-bottom: 10px;
     border-radius: 5px;
   }
+  /*css for the form*/
   .footer{
     font-size: 20px;
     font-weight: bold;
@@ -218,3 +224,4 @@ input[type="submit"]{
     font-family:'Times New Roman', Times, serif;
     text-transform: lowercase;
   }
+  /*css for the footer*/
