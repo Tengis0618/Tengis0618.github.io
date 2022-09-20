@@ -64,33 +64,31 @@ button.btn:active {
 }
 .sect {
     position: relative;
-    width: 400px;
+    width: 1500px;
 }
 .Intinfo {
     position:relative;
     display: flex;
     flex-direction: row;
     width: 100%;
-    align-items: center;
-
 }
 .img {
     position: relative;
-    width:300px;
+    width: 300px;
     height: 400px;
     margin: 50px;
-    padding-left: 50px;
-    border-radius: 30px;
+    padding-left: 46px;
+    padding-bottom: 0;
 }
 .txt{
     top: 50px;
+    margin-right:10px;
     width: 300px;
     height: 400px;
     background: rgba(0, 0,0, 0.6);
     position: absolute;
     opacity: 0;
     transition: 0.25s;
-    border-radius: 30px;
     text-align: left;
     text-indent: 1em;
     line-height: 1.5em;}
@@ -99,15 +97,15 @@ button.btn:active {
 }
 .info1 {
     color: white;
-    left: 100px;
+    left: 96px;
 }
 .info2 {
     color: white;
-    left: 550px;
+    left: 542px;
 }
 .info3 {
     color: white;
-    left: 1000px;
+    left: 988px;
 }
 .h2{
     padding-left: 20px;
